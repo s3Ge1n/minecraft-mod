@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.s3Ge1n.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"FlyMixin",
+		"MinecraftClientMixin",
+		"ClientPlayerInteractionManagerMixin",
+		"ClientConnectionInvoker"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
