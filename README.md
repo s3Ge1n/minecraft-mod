@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# A small modded client for minecraft version 1.20
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+just build it with ```./gradlew build``` the jar is in build/libs, (not the sources one)
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Features
+- elytra fly
+    - hold the jump and select item keys, then WASD to move, also hold shift for slow fly
+- reach
+    - just hit he entities from far, confortable at around 30 blocks, text will apear confirming the hit
+- insta mine
+    - instamine for blocks that are almost instamine in valinla, so stone with an effeciency 5 netherite pickaxe
+- teleport
+    - use the command /pt <distance> to teleport a max of around 300 blocks in the direction your looking, can go through ceilings but not walls
